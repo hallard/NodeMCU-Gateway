@@ -23,9 +23,9 @@ No specific documentation for now, but very close in term of feature to Particle
 ![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-sch.png)  
 
 ### Boards  
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-top.png" alt="Top" width="40%" height="40%">    
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-top.png" alt="Top" width="60%" height="60%">    
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-bottom.png" alt="Bottom" width="40%" height="40%">&nbsp; 
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-bottom.png" alt="Bottom" width="60%" height="60%">&nbsp; 
 
 You can order the PCB of this board at [OSHPARK][3]
 
