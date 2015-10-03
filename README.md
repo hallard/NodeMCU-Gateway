@@ -31,18 +31,18 @@ No specific documentation for now, but very close in term of feature to Particle
 ### Boards  
 <img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-top.png" alt="Top" width="60%" height="60%">    
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-bottom.png" alt="Bottom" width="60%" height="60%">&nbsp; 
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-bottom.png" alt="Bottom" width="60%" height="60%">     
 
 You can order the PCB of this board at [OSHPARK][3] (V1.0)
 
 ### Assembled boards
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-Top.jpg" alt="Top" width="60%" height="60%">    
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-Top.jpg" alt="Top" width="75%" height="75%">    
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-Bottom.jpg" alt="Bottom" width="60%" height="60%">&nbsp; 
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-Bottom.jpg" alt="Bottom" width="75%" height="75%">     
 
-With a nice 1.3" Oled display
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-OLED.jpg" alt="Bottom" width="60%" height="60%">&nbsp; 
+With a nice 1.3" Oled display    
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-OLED.jpg" alt="OLED" width="75%" height="75%">    
 
 I'm currently waiting for boards V1.1 from OSHPARK
 
