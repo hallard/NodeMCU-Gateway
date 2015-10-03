@@ -37,6 +37,8 @@ You can order the PCB of this board at [OSHPARK][3] (V1.0)
 
 ### Assembled boards
 
+*V1.0 tested and assembled boards*    
+
 <img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-Top.jpg" alt="Top" width="75%" height="75%">    
 
 <img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-Bottom.jpg" alt="Bottom" width="75%" height="75%">     
