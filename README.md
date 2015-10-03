@@ -12,7 +12,13 @@ The gateway can host several funny things like
 - Data connection for any cheap ebay ASK RX receiver
 - 2 x grove I2C connector to connect other I2C devices
 
-*Boards are in progress, I did not tested them yet, I will update as soon has I got them in my hands. Use at your own risks*
+Boards V1.0 works but I needed a fix for RMF69 pin connection to ESP826 GPIO
+
+ESP8266 to boot correctly needs some pins at defined level, GPIO15 must be LOW and GPIO2 must be HIGH. Unfortunatlly with RFM69 connected as IRQ to GPIO2 and SS to GPIO15 it does not boot because RF69 pull it DIO IRQ to LOW, making GPIO2 LOW and ESP8266 not booting. The fix is to reverse the wiring, connect IRQ to GPIO15 and SS to GPIO2 (and do according changes in the code).
+
+This page has been updated to reflect the GPIO changes and the PCB also, it's now V1.1.
+
+*Boards V1.1 are in progress, I did not tested them yet, I will update as soon has I got them in my hands. Use at your own risks*
 
 Detailed Description
 ====================
@@ -27,11 +33,18 @@ No specific documentation for now, but very close in term of feature to Particle
 
 <img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-bottom.png" alt="Bottom" width="60%" height="60%">&nbsp; 
 
-You can order the PCB of this board at [OSHPARK][3]
+You can order the PCB of this board at [OSHPARK][3] (V1.0)
 
 ### Assembled boards
 
-I'm currently waiting for boards from OSHPARK
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-Top.jpg" alt="Top" width="60%" height="60%">    
+
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-Bottom.jpg" alt="Bottom" width="60%" height="60%">&nbsp; 
+
+With a nice 1.3" Oled display
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-OLED.jpg" alt="Bottom" width="60%" height="60%">&nbsp; 
+
+I'm currently waiting for boards V1.1 from OSHPARK
 
 ##License
 
