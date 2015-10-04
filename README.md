@@ -12,6 +12,7 @@ The gateway can host several funny things like
 - Data connection for any cheap ebay ASK RX receiver
 - 2 x grove I2C connector to connect other I2C devices
 - 2 onboard nice WS2812 RGB LED
+- Footprint for Atmel ATSHA204 encryption keys (I2C version due to lack of I/O)
 
 Boards V1.0 works but I needed a fix for RMF69 pin connection to ESP826 GPIO, let me explain :    
 ESP8266 to boot correctly needs some pins at defined level, GPIO15 must be LOW and GPIO2 must be HIGH. Unfortunatlly with RFM69 connected as IRQ to GPIO2 and SS to GPIO15 it does not boot because RF69 pull it DIO IRQ to LOW, making GPIO2 LOW and ESP8266 not booting. The fix is to reverse the wiring, connect IRQ to GPIO15 and SS to GPIO2 (and do according changes in the code).
