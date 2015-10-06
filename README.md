@@ -27,8 +27,11 @@ Detailed Description
 
 No specific documentation for now, but very close in term of feature to Particle Gateway I created and blogged on this dedicated [post][1]
 
-### Schematic  
+### Schematic (Classic version)
 ![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-sch.png)  
+
+### Schematic (NRF24L01 version)
+![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-NRF-sch.png)  
 
 ### Boards (Classic version)
 <img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-top.png" alt="Top" width="60%" height="60%">    
