@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6592,6 +6592,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
 <rectangle x1="35.306" y1="-0.254" x2="35.814" y2="0.254" layer="51"/>
 </package>
+<package name="SMA-EDGE">
+<description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;&lt;p&gt;
+This is a footprint for an edge mount RF antenna. Works pretty well with SMA type connectors but may also work with other edge mount RF connectors. Keep in mind, these edge mount connectors assume you are using a 0.062" PCB thickness.</description>
+<smd name="GND@0" x="0" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
+<smd name="SIG" x="2.54" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
+<smd name="GND@1" x="5.08" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
+<smd name="GND@2" x="0" y="0" dx="1.524" dy="4.064" layer="16"/>
+<smd name="GND@3" x="5.08" y="0" dx="1.524" dy="4.064" layer="16"/>
+</package>
 </packages>
 <symbols>
 <symbol name="M15">
@@ -6631,6 +6640,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="13" x="10.16" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="14" x="10.16" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="15" x="10.16" y="17.78" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="SMA_EDGE">
+<wire x1="0" y1="-2.54" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.1359" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<pin name="GND@0" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="SIGNAL" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="GND@1" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="GND@2" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="GND@3" x="-2.54" y="-12.7" visible="off" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6724,6 +6743,27 @@ Standard 15-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMA_EDGE" prefix="J$">
+<description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;
+End launch SMA connector. The paste layer has been removed so that the connector can be hand soldered onto the board after reflow.</description>
+<gates>
+<gate name="1" symbol="SMA_EDGE" x="-2.54" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="SMA-EDGE">
+<connects>
+<connect gate="1" pin="GND@0" pad="GND@0"/>
+<connect gate="1" pin="GND@1" pad="GND@1"/>
+<connect gate="1" pin="GND@2" pad="GND@2"/>
+<connect gate="1" pin="GND@3" pad="GND@3"/>
+<connect gate="1" pin="SIGNAL" pad="SIG"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7094,6 +7134,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="_c2h" deviceset="CAP" device="0805-CAP" value="100nF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="J$1" library="SparkFun-Connectors" deviceset="SMA_EDGE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7119,6 +7160,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="210.82" y="125.73" size="1.778" layer="94">IRQ</text>
 <text x="210.82" y="151.13" size="1.778" layer="94">LED/KEY</text>
 <text x="176.53" y="156.21" size="1.778" layer="94">NodeMCU Headers</text>
+<text x="93.98" y="165.1" size="1.778" layer="94">Connect to Vin to put Power
+terminal blocks (to power board)
+instead of SPI OLED</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="133.35" y="107.95"/>
@@ -7134,9 +7178,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND12" gate="1" x="45.72" y="45.72"/>
 <instance part="U$2" gate="G$1" x="45.72" y="68.58"/>
 <instance part="U$3" gate="G$1" x="38.1" y="27.94"/>
-<instance part="P1" gate="G$1" x="78.74" y="30.48"/>
+<instance part="P1" gate="G$1" x="83.82" y="30.48"/>
 <instance part="U-FL" gate="G$1" x="73.66" y="30.48"/>
-<instance part="GND9" gate="1" x="71.12" y="17.78"/>
+<instance part="GND9" gate="1" x="71.12" y="12.7"/>
 <instance part="GND1" gate="1" x="38.1" y="10.16"/>
 <instance part="GND13" gate="1" x="139.7" y="52.07"/>
 <instance part="VIN" gate="1" x="139.7" y="82.55" smashed="yes">
@@ -7236,6 +7280,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="126.746" y="38.989" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND5" gate="1" x="116.84" y="34.29" rot="R270"/>
+<instance part="J$1" gate="1" x="73.66" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -7278,6 +7323,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="71.12" y="22.86"/>
 <wire x1="71.12" y1="22.86" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
 <junction x="71.12" y="25.4"/>
+<pinref part="J$1" gate="1" pin="GND@0"/>
+<pinref part="J$1" gate="1" pin="GND@1"/>
+<pinref part="J$1" gate="1" pin="GND@2"/>
+<wire x1="71.12" y1="20.32" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
+<junction x="71.12" y="20.32"/>
+<pinref part="J$1" gate="1" pin="GND@3"/>
+<wire x1="71.12" y1="17.78" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
+<junction x="71.12" y="17.78"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="GND"/>
@@ -7552,6 +7605,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="P1" gate="G$1" pin="1"/>
 <label x="63.5" y="30.48" size="1.778" layer="95"/>
 <pinref part="U-FL" gate="G$1" pin="SIGNAL"/>
+<junction x="83.82" y="30.48"/>
+<pinref part="J$1" gate="1" pin="SIGNAL"/>
+<wire x1="83.82" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 <junction x="78.74" y="30.48"/>
 </segment>
 </net>
@@ -7864,16 +7920,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="102,1,38.1,45.72,3V3-EXT,3V3,,,,"/>
 <approved hash="102,1,24.13,129.54,3V3-EXT,3V3,,,,"/>
 <approved hash="102,1,196.85,77.47,3V3-EXT,3V3,,,,"/>
+<approved hash="102,1,20.32,50.8,3V3-EXT,3V3,,,,"/>
+<approved hash="102,1,90.17,168.91,+5V,VIN,,,,"/>
+<approved hash="102,1,130.81,38.1,3V3-EXT,3V3,,,,"/>
 <approved hash="104,1,45.72,81.28,U$2,VCC,3V3,,,"/>
 <approved hash="202,1,33.02,76.2,U$2,NRES,,,,"/>
 <approved hash="104,1,38.1,43.18,U$3,VCC,3V3,,,"/>
 <approved hash="104,1,142.24,72.39,RX-433MHZ,+5V,VIN,,,"/>
 <approved hash="104,1,204.47,67.31,WS2812,VDD,VLED,,,"/>
 <approved hash="104,1,236.22,67.31,WS2812-1,VDD,VLED,,,"/>
+<approved hash="104,1,129.54,27.94,IC1,VCC,3V3,,,"/>
 <approved hash="106,1,168.91,151.13,A0,,,,,"/>
 <approved hash="106,1,201.93,120.65,GPIO1,,,,,"/>
 <approved hash="106,1,168.91,140.97,GPIO9,,,,,"/>
 <approved hash="106,1,168.91,143.51,GPIO10,,,,,"/>
+<approved hash="112,1,72.39,25.4,,,,,,"/>
+<approved hash="112,1,76.2,30.48,,,,,,"/>
+<approved hash="112,1,72.39,22.86,,,,,,"/>
 <approved hash="113,1,134.62,118.893,POWER,,,,,"/>
 <approved hash="113,1,172.127,131.885,JP1,,,,,"/>
 <approved hash="113,1,198.713,131.885,JP2,,,,,"/>
