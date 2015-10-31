@@ -26,6 +26,12 @@ Boards V1.1 are there, I tested them (RFM69), no problem at all, just SILK error
 
 SILK problem solved in V1.1a, I also put VIN/RST solder pad bigger for easier soldering.
 
+New Version 1.1 boards
+======================
+this is a bunch of V1.1 white PCB boards, nice ?
+
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/V1.1-White-Boards">    
+
 Detailed Description
 ====================
 
@@ -51,8 +57,6 @@ You can order the PCB of this board at [OSHPARK][3] (V1.0)
 
 With a nice 1.3" Oled display    
 <img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-OLED.jpg" alt="OLED" width="75%" height="75%">    
-
-I'm currently waiting for boards V1.1 from OSHPARK    
 
 ### Schematic (NRF24L01 version)
 ![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-NRF-sch.png)  
