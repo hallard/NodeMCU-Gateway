@@ -30,7 +30,7 @@ New Version 1.1 boards
 ======================
 this is a bunch of V1.1 white PCB boards, nice ?
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/V1.1-White-Boards">    
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/V1.1-White-Boards.jpg">
 
 Detailed Description
 ====================
