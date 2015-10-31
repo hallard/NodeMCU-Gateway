@@ -18,9 +18,13 @@ The gateway can host several funny things like
 Boards V1.0 works but I needed a fix for RMF69 pin connection to ESP826 GPIO, let me explain :    
 ESP8266 to boot correctly needs some pins at defined level, GPIO15 must be LOW and GPIO2 must be HIGH. Unfortunatlly with RFM69 connected as IRQ to GPIO2 and SS to GPIO15 it does not boot because RF69 pull it DIO IRQ to LOW, making GPIO2 LOW and ESP8266 not booting. The fix is to reverse the wiring, connect IRQ to GPIO15 and SS to GPIO2 (and do according changes in the code).
 
-This page has been updated to reflect the GPIO changes and the PCB also, it's now V1.1.
+This page has been updated to reflect the GPIO changes and the PCB also, it's now V1.1a.
 
-*Boards V1.1 are in progress, I did not tested them yet, I will update as soon has I got them in my hands. Use at your own risks*
+Boards V1.1 are there, I tested them (RFM69), no problem at all, just SILK error on TFT connector, TFT pin 4 is RST or VIN (depending on solder pad) not GPIO0, also R3 10K is not needed since GPIO2 is already pulled up by 12K on nodeMCU boards.
+
+**NRF24L01 version are not tested (I do not use NRF), use at your own risk**
+
+SILK problem solved in V1.1a, I also put VIN/RST solder pad bigger for easier soldering.
 
 Detailed Description
 ====================
