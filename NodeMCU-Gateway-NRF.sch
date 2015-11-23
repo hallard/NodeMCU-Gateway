@@ -8,24 +8,24 @@
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="13" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="3" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="3" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="3" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="3" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="13" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="3" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="3" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="3" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="3" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,19 +43,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="3" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="3" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -7792,6 +7792,93 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="transistor-small-signal">
+<description>&lt;b&gt;Small Signal Transistors&lt;/b&gt;&lt;p&gt;
+Packages from :&lt;br&gt;
+www.infineon.com; &lt;br&gt;
+www.semiconductors.com;&lt;br&gt;
+www.irf.com&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SOT23">
+<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="P-MOS">
+<wire x1="0" y1="0" x2="-1.016" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0.381" x2="-1.016" y2="-0.381" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="-0.381" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.032" x2="0" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.381" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.048" x2="1.27" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-3.048" x2="1.27" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.794" x2="0" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-0.762" x2="1.778" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-0.762" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="0.762" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="0" x2="1.778" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-2.032" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.032" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="2.032" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="0" x2="-0.889" y2="-0.127" width="0.254" layer="94"/>
+<wire x1="-0.889" y1="-0.127" x2="-0.889" y2="0.127" width="0.254" layer="94"/>
+<wire x1="-0.889" y1="0.127" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-0.635" x2="1.524" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-0.635" x2="1.27" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.254" x2="1.016" y2="-0.635" width="0.254" layer="94"/>
+<circle x="0" y="2.794" radius="0.3592" width="0" layer="94"/>
+<circle x="0" y="2.032" radius="0.3592" width="0" layer="94"/>
+<circle x="0" y="-3.048" radius="0.3592" width="0" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="-2.54" x2="-1.524" y2="-1.27" layer="94"/>
+<rectangle x1="-2.032" y1="1.27" x2="-1.524" y2="2.54" layer="94"/>
+<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
+<pin name="G" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BSS84" prefix="Q">
+<description>&lt;b&gt;P-CHANNEL MOS FET&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="P-MOS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7825,7 +7912,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L"/>
 <part name="NAME" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device="" value="Value">
 <attribute name="CNAME" value="ESP8266 NodeMCU RF Gateway + Display"/>
-<attribute name="CREVISION" value="1.1b"/>
+<attribute name="CREVISION" value="1.2"/>
 <attribute name="DESIGNER" value="Charles-Henri Hallard"/>
 </part>
 <part name="P+4" library="_c2h" deviceset="3V3-EXT" device="" value="3V3"/>
@@ -7860,13 +7947,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SNRFIRQ" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NO" device="YES_SILK" value="NRFIRQ"/>
 <part name="C4" library="Seeed-OPL-Discrete" deviceset="CAP-POLAR" device="-D5.3/2.0" value="100uF"/>
+<part name="Q1" library="transistor-small-signal" deviceset="BSS84" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="60.96" y="76.2" size="1.778" layer="94">RFM12B, RFM69CW, choice module</text>
+<text x="48.26" y="81.28" size="1.778" layer="94">RFM12B, RFM69CW, choice module</text>
 <text x="63.5" y="35.56" size="1.778" layer="94">or RFM69HW</text>
-<text x="142.24" y="80.01" size="1.778" layer="94">RX-Receiver 433MHz</text>
+<text x="149.86" y="67.31" size="1.778" layer="94">RX-Receiver 433MHz</text>
 <text x="76.2" y="156.21" size="1.778" layer="94">CS</text>
 <text x="74.93" y="137.16" size="1.778" layer="94">CS</text>
 <text x="74.93" y="134.62" size="1.778" layer="94">D/C</text>
@@ -7892,7 +7980,7 @@ instead of SPI OLED</text>
 mainly USB powered</text>
 </plain>
 <instances>
-<instance part="GND2" gate="1" x="133.35" y="107.95"/>
+<instance part="GND2" gate="1" x="105.41" y="105.41"/>
 <instance part="GND11" gate="1" x="73.66" y="116.84"/>
 <instance part="R1" gate="G$1" x="20.32" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.8214" y="118.11" size="1.778" layer="95" rot="R90"/>
@@ -7909,9 +7997,9 @@ mainly USB powered</text>
 <instance part="U-FL" gate="G$1" x="73.66" y="30.48"/>
 <instance part="GND9" gate="1" x="71.12" y="17.78"/>
 <instance part="GND1" gate="1" x="38.1" y="10.16"/>
-<instance part="GND13" gate="1" x="139.7" y="52.07"/>
-<instance part="VIN" gate="1" x="139.7" y="82.55" smashed="yes">
-<attribute name="VALUE" x="142.24" y="85.09" size="1.778" layer="96" rot="R180"/>
+<instance part="GND13" gate="1" x="147.32" y="39.37"/>
+<instance part="VIN" gate="1" x="147.32" y="69.85" smashed="yes">
+<attribute name="VALUE" x="149.86" y="72.39" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SPI_OLED" gate="G$1" x="58.42" y="125.73" smashed="yes">
 <attribute name="NAME" x="53.594" y="140.716" size="1.778" layer="95"/>
@@ -7919,9 +8007,9 @@ mainly USB powered</text>
 <instance part="I2C_OLED" gate="G$1" x="55.88" y="101.6" smashed="yes">
 <attribute name="NAME" x="54.864" y="115.316" size="1.778" layer="95"/>
 </instance>
-<instance part="RX-433MHZ" gate="G$1" x="152.4" y="62.23" smashed="yes">
-<attribute name="VALUE" x="147.32" y="52.07" size="1.778" layer="96"/>
-<attribute name="NAME" x="147.32" y="75.692" size="1.778" layer="95"/>
+<instance part="RX-433MHZ" gate="G$1" x="160.02" y="49.53" smashed="yes">
+<attribute name="VALUE" x="154.94" y="39.37" size="1.778" layer="96"/>
+<attribute name="NAME" x="154.94" y="62.992" size="1.778" layer="95"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="171.45" y="15.24"/>
 <instance part="NAME" gate="G$1" x="5.08" y="5.08" smashed="yes">
@@ -7944,13 +8032,13 @@ mainly USB powered</text>
 <instance part="P+7" gate="3V3-EXT" x="24.13" y="129.54" smashed="yes">
 <attribute name="VALUE" x="21.844" y="133.096" size="1.778" layer="96"/>
 </instance>
-<instance part="POWER" gate="G$1" x="134.62" y="118.11" smashed="yes" rot="R270">
-<attribute name="VALUE" x="138.43" y="120.65" size="1.27" layer="96" ratio="10" rot="R270"/>
-<attribute name="NAME" x="131.826" y="124.841" size="1.27" layer="95" ratio="10"/>
+<instance part="POWER" gate="G$1" x="106.68" y="118.11" smashed="yes" rot="R270">
+<attribute name="VALUE" x="110.49" y="120.65" size="1.27" layer="96" ratio="10" rot="R270"/>
+<attribute name="NAME" x="103.886" y="124.841" size="1.27" layer="95" ratio="10"/>
 </instance>
-<instance part="J3" gate="J" x="146.05" y="122.555" smashed="yes" rot="R270">
-<attribute name="VALUE" x="140.97" y="126.365" size="1.27" layer="96" ratio="10"/>
-<attribute name="NAME" x="145.415" y="120.65" size="1.27" layer="95" ratio="10"/>
+<instance part="J3" gate="J" x="118.11" y="122.555" smashed="yes" rot="R270">
+<attribute name="VALUE" x="113.03" y="126.365" size="1.27" layer="96" ratio="10"/>
+<attribute name="NAME" x="117.475" y="120.65" size="1.27" layer="95" ratio="10"/>
 </instance>
 <instance part="J5" gate="J" x="60.96" y="158.75" rot="R180"/>
 <instance part="WS2812" gate="G$1" x="204.47" y="59.69" smashed="yes">
@@ -8003,18 +8091,19 @@ mainly USB powered</text>
 <attribute name="VALUE" x="126.746" y="38.989" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND5" gate="1" x="116.84" y="34.29" rot="R270"/>
-<instance part="RADIO1" gate="G$1" x="109.22" y="93.98"/>
-<instance part="P+3" gate="3V3-EXT" x="120.65" y="101.6" smashed="yes">
-<attribute name="VALUE" x="118.364" y="105.156" size="1.778" layer="96"/>
+<instance part="RADIO1" gate="G$1" x="109.22" y="66.04"/>
+<instance part="P+3" gate="3V3-EXT" x="120.65" y="73.66" smashed="yes">
+<attribute name="VALUE" x="118.364" y="77.216" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="93.98" y="101.6" rot="R180"/>
-<instance part="SNRFIRQ" gate="G$1" x="121.92" y="91.44" smashed="yes">
-<attribute name="NAME" x="117.475" y="87.63" size="1.778" layer="95"/>
+<instance part="GND3" gate="1" x="93.98" y="73.66" rot="R180"/>
+<instance part="SNRFIRQ" gate="G$1" x="121.92" y="63.5" smashed="yes">
+<attribute name="NAME" x="117.475" y="59.69" size="1.778" layer="95"/>
 </instance>
-<instance part="C4" gate="C" x="109.22" y="109.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="108.585" y="114.3" size="1.27" layer="95" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="114.935" y="114.3" size="1.27" layer="96" ratio="10" rot="R180"/>
+<instance part="C4" gate="C" x="109.22" y="83.82" smashed="yes" rot="R180">
+<attribute name="NAME" x="108.585" y="88.9" size="1.27" layer="95" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="114.935" y="88.9" size="1.27" layer="96" ratio="10" rot="R180"/>
 </instance>
+<instance part="Q1" gate="G$1" x="142.24" y="115.57" rot="MR90"/>
 </instances>
 <busses>
 </busses>
@@ -8062,8 +8151,8 @@ mainly USB powered</text>
 <wire x1="38.1" y1="15.24" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="142.24" y1="57.15" x2="139.7" y2="57.15" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="57.15" x2="139.7" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="44.45" x2="147.32" y2="44.45" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="44.45" x2="147.32" y2="41.91" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="RX-433MHZ" gate="G$1" pin="GND"/>
 </segment>
@@ -8072,20 +8161,23 @@ mainly USB powered</text>
 <pinref part="POWER" gate="G$1" pin="2"/>
 <pinref part="POWER" gate="G$1" pin="3"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="133.35" y1="110.49" x2="143.51" y2="110.49" width="0.1524" layer="91"/>
-<junction x="133.35" y="110.49"/>
-<wire x1="133.35" y1="110.49" x2="129.54" y2="110.49" width="0.1524" layer="91"/>
-<wire x1="133.35" y1="115.57" x2="133.35" y2="110.49" width="0.1524" layer="91"/>
-<wire x1="143.51" y1="116.84" x2="143.51" y2="110.49" width="0.1524" layer="91"/>
-<junction x="133.35" y="110.49"/>
-<junction x="133.35" y="110.49"/>
-<junction x="143.51" y="110.49"/>
+<wire x1="105.41" y1="107.95" x2="115.57" y2="107.95" width="0.1524" layer="91"/>
+<junction x="105.41" y="107.95"/>
+<wire x1="105.41" y1="107.95" x2="101.6" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="105.41" y1="115.57" x2="105.41" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="115.57" y1="116.84" x2="115.57" y2="107.95" width="0.1524" layer="91"/>
+<junction x="105.41" y="107.95"/>
+<junction x="105.41" y="107.95"/>
+<junction x="115.57" y="107.95"/>
 <pinref part="J3" gate="J" pin="-"/>
-<wire x1="139.7" y1="121.92" x2="139.7" y2="127" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="127" x2="129.54" y2="127" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="127" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
-<junction x="129.54" y="121.92"/>
-<wire x1="129.54" y1="121.92" x2="129.54" y2="110.49" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="121.92" x2="111.76" y2="127" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="127" x2="101.6" y2="127" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="127" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
+<junction x="101.6" y="121.92"/>
+<wire x1="101.6" y1="121.92" x2="101.6" y2="107.95" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="115.57" y1="107.95" x2="144.78" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="107.95" x2="144.78" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="153.67" x2="76.2" y2="153.67" width="0.1524" layer="91"/>
@@ -8146,11 +8238,11 @@ mainly USB powered</text>
 <segment>
 <pinref part="RADIO1" gate="G$1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="101.6" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C4" gate="C" pin="-"/>
-<wire x1="105.41" y1="109.22" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="109.22" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
-<junction x="101.6" y="99.06"/>
+<wire x1="105.41" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="83.82" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
+<junction x="101.6" y="71.12"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -8246,8 +8338,8 @@ mainly USB powered</text>
 </segment>
 <segment>
 <pinref part="RADIO1" gate="G$1" pin="CLK"/>
-<wire x1="101.6" y1="93.98" x2="87.63" y2="93.98" width="0.1524" layer="91"/>
-<label x="87.63" y="93.98" size="1.778" layer="95"/>
+<wire x1="101.6" y1="66.04" x2="87.63" y2="66.04" width="0.1524" layer="91"/>
+<label x="87.63" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -8272,8 +8364,8 @@ mainly USB powered</text>
 </segment>
 <segment>
 <pinref part="RADIO1" gate="G$1" pin="MISO"/>
-<wire x1="101.6" y1="91.44" x2="87.63" y2="91.44" width="0.1524" layer="91"/>
-<label x="87.63" y="91.44" size="1.778" layer="95"/>
+<wire x1="101.6" y1="63.5" x2="87.63" y2="63.5" width="0.1524" layer="91"/>
+<label x="87.63" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -8310,10 +8402,10 @@ mainly USB powered</text>
 <junction x="201.93" y="128.27"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="93.98" x2="130.81" y2="93.98" width="0.1524" layer="91"/>
-<label x="125.73" y="93.98" size="1.778" layer="95"/>
+<wire x1="116.84" y1="66.04" x2="130.81" y2="66.04" width="0.1524" layer="91"/>
+<label x="125.73" y="66.04" size="1.778" layer="95"/>
 <pinref part="RADIO1" gate="G$1" pin="MOSI"/>
-<junction x="116.84" y="93.98"/>
+<junction x="116.84" y="66.04"/>
 </segment>
 </net>
 <net name="GPIO15" class="0">
@@ -8336,8 +8428,8 @@ mainly USB powered</text>
 </segment>
 <segment>
 <pinref part="RADIO1" gate="G$1" pin="CSN"/>
-<wire x1="116.84" y1="96.52" x2="130.81" y2="96.52" width="0.1524" layer="91"/>
-<label x="125.73" y="96.52" size="1.778" layer="95"/>
+<wire x1="116.84" y1="68.58" x2="130.81" y2="68.58" width="0.1524" layer="91"/>
+<label x="125.73" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ANT" class="0">
@@ -8446,13 +8538,13 @@ mainly USB powered</text>
 </segment>
 <segment>
 <pinref part="RADIO1" gate="G$1" pin="3V3"/>
-<wire x1="116.84" y1="99.06" x2="120.65" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="71.12" x2="120.65" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="3V3-EXT" pin="3V3-EXT"/>
-<wire x1="120.65" y1="99.06" x2="120.65" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="99.06" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="71.12" x2="120.65" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="71.12" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C4" gate="C" pin="+"/>
-<wire x1="116.84" y1="109.22" x2="113.03" y2="109.22" width="0.1524" layer="91"/>
-<junction x="116.84" y="99.06"/>
+<wire x1="116.84" y1="83.82" x2="113.03" y2="83.82" width="0.1524" layer="91"/>
+<junction x="116.84" y="71.12"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -8520,8 +8612,8 @@ mainly USB powered</text>
 </segment>
 <segment>
 <pinref part="SNRFIRQ" gate="G$1" pin="2"/>
-<wire x1="127" y1="91.44" x2="130.81" y2="91.44" width="0.1524" layer="91"/>
-<label x="125.73" y="91.44" size="1.778" layer="95"/>
+<wire x1="127" y1="63.5" x2="130.81" y2="63.5" width="0.1524" layer="91"/>
+<label x="125.73" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO1" class="0">
@@ -8569,8 +8661,8 @@ mainly USB powered</text>
 </segment>
 <segment>
 <pinref part="RADIO1" gate="G$1" pin="CE"/>
-<wire x1="101.6" y1="96.52" x2="87.63" y2="96.52" width="0.1524" layer="91"/>
-<label x="87.63" y="96.52" size="1.778" layer="95"/>
+<wire x1="101.6" y1="68.58" x2="87.63" y2="68.58" width="0.1524" layer="91"/>
+<label x="87.63" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
@@ -8595,13 +8687,13 @@ mainly USB powered</text>
 </segment>
 <segment>
 <pinref part="RX-433MHZ" gate="G$1" pin="DATA"/>
-<wire x1="142.24" y1="64.77" x2="137.16" y2="64.77" width="0.1524" layer="91"/>
-<label x="137.16" y="64.77" size="1.778" layer="95"/>
+<wire x1="149.86" y1="52.07" x2="144.78" y2="52.07" width="0.1524" layer="91"/>
+<label x="144.78" y="52.07" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="WS2812" gate="G$1" pin="DIN"/>
-<wire x1="196.85" y1="59.69" x2="176.53" y2="59.69" width="0.1524" layer="91"/>
-<label x="176.276" y="60.452" size="1.778" layer="95"/>
+<wire x1="196.85" y1="59.69" x2="189.23" y2="59.69" width="0.1524" layer="91"/>
+<label x="188.976" y="60.452" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VLED" class="0">
@@ -8643,20 +8735,8 @@ mainly USB powered</text>
 <pinref part="SJPWR" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<label x="161.29" y="115.57" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="15"/>
-<pinref part="POWER" gate="G$1" pin="1"/>
-<pinref part="J3" gate="J" pin="+"/>
-<wire x1="135.89" y1="115.57" x2="148.59" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="148.59" y1="116.84" x2="148.59" y2="115.57" width="0.1524" layer="91"/>
-<junction x="148.59" y="115.57"/>
-<wire x1="168.91" y1="115.57" x2="148.59" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="168.91" y1="115.57" x2="148.59" y2="115.57" width="0.1524" layer="91"/>
-<junction x="168.91" y="115.57"/>
-</segment>
-<segment>
-<wire x1="142.24" y1="72.39" x2="139.7" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="72.39" x2="139.7" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="59.69" x2="147.32" y2="59.69" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="59.69" x2="147.32" y2="67.31" width="0.1524" layer="91"/>
 <pinref part="VIN" gate="1" pin="+5V"/>
 <pinref part="RX-433MHZ" gate="G$1" pin="+5V"/>
 </segment>
@@ -8664,6 +8744,12 @@ mainly USB powered</text>
 <label x="210.82" y="74.93" size="1.778" layer="95"/>
 <pinref part="SJLED" gate="G$1" pin="1"/>
 <wire x1="217.17" y1="74.93" x2="209.55" y2="74.93" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<pinref part="JP1" gate="G$1" pin="15"/>
+<wire x1="147.32" y1="115.57" x2="168.91" y2="115.57" width="0.1524" layer="91"/>
+<label x="161.29" y="115.57" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -8679,11 +8765,23 @@ mainly USB powered</text>
 <pinref part="SNRFIRQ" gate="G$1" pin="1"/>
 </segment>
 </net>
+<net name="PWR" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<junction x="137.16" y="115.57"/>
+<pinref part="POWER" gate="G$1" pin="1"/>
+<pinref part="J3" gate="J" pin="+"/>
+<wire x1="107.95" y1="115.57" x2="120.65" y2="115.57" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="116.84" x2="120.65" y2="115.57" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="115.57" x2="120.65" y2="115.57" width="0.1524" layer="91"/>
+<junction x="120.65" y="115.57"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,139.7,80.01,+5V,VIN,,,,"/>
+<approved hash="102,1,147.32,67.31,+5V,VIN,,,,"/>
 <approved hash="102,1,83.82,129.54,3V3-EXT,3V3,,,,"/>
 <approved hash="102,1,45.72,86.36,3V3-EXT,3V3,,,,"/>
 <approved hash="102,1,38.1,45.72,3V3-EXT,3V3,,,,"/>
@@ -8692,11 +8790,11 @@ mainly USB powered</text>
 <approved hash="102,1,20.32,50.8,3V3-EXT,3V3,,,,"/>
 <approved hash="102,1,90.17,168.91,+5V,VIN,,,,"/>
 <approved hash="102,1,130.81,38.1,3V3-EXT,3V3,,,,"/>
-<approved hash="102,1,120.65,101.6,3V3-EXT,3V3,,,,"/>
+<approved hash="102,1,120.65,73.66,3V3-EXT,3V3,,,,"/>
 <approved hash="104,1,45.72,81.28,U$2,VCC,3V3,,,"/>
 <approved hash="202,1,33.02,76.2,U$2,NRES,,,,"/>
 <approved hash="104,1,38.1,43.18,U$3,VCC,3V3,,,"/>
-<approved hash="104,1,142.24,72.39,RX-433MHZ,+5V,VIN,,,"/>
+<approved hash="104,1,149.86,59.69,RX-433MHZ,+5V,VIN,,,"/>
 <approved hash="104,1,204.47,67.31,WS2812,VDD,VLED,,,"/>
 <approved hash="104,1,236.22,67.31,WS2812-1,VDD,VLED,,,"/>
 <approved hash="104,1,129.54,27.94,IC1,VCC,3V3,,,"/>
@@ -8704,12 +8802,9 @@ mainly USB powered</text>
 <approved hash="106,1,201.93,120.65,GPIO1,,,,,"/>
 <approved hash="106,1,168.91,140.97,GPIO9,,,,,"/>
 <approved hash="106,1,168.91,143.51,GPIO10,,,,,"/>
-<approved hash="207,1,25.4,22.86,GPIO15,oc,,,,"/>
-<approved hash="207,1,33.02,60.96,GPIO15,oc,,,,"/>
-<approved hash="207,1,116.84,91.44,GPIO15,out,,,,"/>
 <approved hash="206,1,33.02,66.04,MISO,,,,,"/>
-<approved hash="206,1,101.6,91.44,MISO,,,,,"/>
-<approved hash="113,1,134.62,118.893,POWER,,,,,"/>
+<approved hash="206,1,101.6,63.5,MISO,,,,,"/>
+<approved hash="113,1,106.68,118.893,POWER,,,,,"/>
 <approved hash="113,1,172.127,131.885,JP1,,,,,"/>
 <approved hash="113,1,198.713,131.885,JP2,,,,,"/>
 </errors>

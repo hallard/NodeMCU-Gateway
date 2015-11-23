@@ -268,7 +268,7 @@ Ant</text>
 <wire x1="58.42" y1="0" x2="59.69" y2="1.27" width="0" layer="20" curve="90"/>
 <wire x1="58.42" y1="40.64" x2="59.69" y2="39.37" width="0" layer="20" curve="-90"/>
 <text x="38.66975" y="35.88275" size="1.27" layer="26" font="vector" ratio="15" rot="MR180">RX-Receiver</text>
-<text x="34.85975" y="14.03875" size="1.27" layer="26" font="vector" ratio="15" rot="MR180">NodeMCU Gateway V1.1b
+<text x="34.85975" y="14.03875" size="1.27" layer="26" font="vector" ratio="15" rot="MR180">NodeMCU Gateway V1.2
 http://hallard.me</text>
 <text x="29.33525" y="33.27925" size="0.889" layer="25" font="vector" ratio="15">GND</text>
 <text x="47.11525" y="6.35525" size="0.889" layer="25" font="vector" ratio="15">GND</text>
@@ -282,7 +282,7 @@ http://hallard.me</text>
 <text x="39.49525" y="6.35525" size="0.889" layer="25" font="vector" ratio="15">3V3</text>
 <text x="22.128" y="6.35525" size="0.889" layer="25" font="vector" ratio="15">10</text>
 <text x="25.049" y="6.35525" size="0.889" layer="25" font="vector" ratio="15">9</text>
-<text x="17.01975" y="11.48825" size="1.27" layer="25" font="vector" ratio="15">NodeMCU Gateway V1.1b
+<text x="17.01975" y="11.48825" size="1.27" layer="25" font="vector" ratio="15">NodeMCU Gateway V1.2
 http://hallard.me</text>
 <text x="51.7825" y="6.48225" size="0.889" layer="26" font="vector" ratio="15" rot="MR0">VIN</text>
 <text x="49.56" y="1.78325" size="0.889" layer="26" font="vector" ratio="15" rot="MR0">3V3</text>
@@ -1318,6 +1318,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="transistor-small-signal">
+<description>&lt;b&gt;Small Signal Transistors&lt;/b&gt;&lt;p&gt;
+Packages from :&lt;br&gt;
+www.infineon.com; &lt;br&gt;
+www.semiconductors.com;&lt;br&gt;
+www.irf.com&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SOT23">
+<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1593,7 +1618,7 @@ design rules under a new name.</description>
 <element name="RADIO1" library="_c2h" package="2X04_NO_LOCK" value="NRF24L01" x="3.81" y="35.433" smashed="yes" rot="R270">
 <attribute name="VALUE" x="6.604" y="40.1955" size="1.27" layer="25" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="U$6" library="_c2h" package="LOGO_CH2I_75MM" value="" x="48.26" y="12.7"/>
+<element name="U$6" library="_c2h" package="LOGO_CH2I_75MM" value="" x="47.244" y="12.7"/>
 <element name="U$7" library="_c2h" package="LOGO_CH2I_75MM" value="" x="21.336" y="2.794" rot="MR0"/>
 <element name="SNRFIRQ" library="SparkFun-Passives" package="PAD-JUMPER-2-NO_YES_SILK" value="NRFIRQ" x="7.62" y="31.75" smashed="yes" rot="MR180">
 <attribute name="NAME" x="8.89" y="29.064" size="0.889" layer="26" font="vector" ratio="15" rot="MR90"/>
@@ -1603,6 +1628,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.954" y="34.671" size="0.889" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="16.51" y="40.386" size="0.889" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="NAME" x="10.668" y="36.83" size="0.254" layer="33" ratio="10" rot="R90"/>
+</element>
+<element name="Q1" library="transistor-small-signal" package="SOT23" value="BSS84" x="52.07" y="13.97" smashed="yes">
+<attribute name="NAME" x="49.784" y="14.224" size="0.889" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="50.165" y="10.795" size="0.889" layer="25" font="vector" ratio="15"/>
 </element>
 </elements>
 <signals>
@@ -1633,7 +1662,6 @@ design rules under a new name.</description>
 <contactref element="POWER" pad="3"/>
 <contactref element="POWER" pad="4"/>
 <wire x1="2.032" y1="8.28675" x2="6.1595" y2="8.28675" width="0.3048" layer="1"/>
-<wire x1="1.778" y1="1.55575" x2="6.1595" y2="1.55575" width="0.3048" layer="1"/>
 <contactref element="J3" pad="2"/>
 <contactref element="J5" pad="2"/>
 <via x="8.41375" y="1.778" extent="1-16" drill="0.3556" diameter="0.7112"/>
@@ -1651,12 +1679,11 @@ design rules under a new name.</description>
 <contactref element="J2" pad="4"/>
 <contactref element="WS2812-1" pad="3"/>
 <contactref element="C3" pad="1"/>
-<via x="48.29175" y="15.3035" extent="1-16" drill="0.3556" diameter="0.7112"/>
+<via x="48.16475" y="15.1765" extent="1-16" drill="0.3556" diameter="0.7112"/>
 <via x="39.02075" y="36.83" extent="1-16" drill="0.3556" diameter="0.7112"/>
 <via x="55.91175" y="9.525" extent="1-16" drill="0.3556" diameter="0.7112"/>
 <via x="35.59175" y="16.1925" extent="1-16" drill="0.3556" diameter="0.7112"/>
 <wire x1="2.032" y1="8.28675" x2="6.1595" y2="8.28675" width="0.3048" layer="16"/>
-<wire x1="1.778" y1="1.55575" x2="6.1595" y2="1.55575" width="0.3048" layer="16"/>
 <via x="10.19175" y="28.575" extent="1-16" drill="0.3556" diameter="0.7112"/>
 <contactref element="IC1" pad="4"/>
 <contactref element="C1" pad="1"/>
@@ -1668,6 +1695,7 @@ design rules under a new name.</description>
 <via x="6.95325" y="33.02" extent="1-16" drill="0.3556" diameter="0.7112"/>
 <via x="11.96975" y="33.02" extent="1-16" drill="0.3556" diameter="0.7112"/>
 <contactref element="C4" pad="-"/>
+<contactref element="Q1" pad="1"/>
 </signal>
 <signal name="SCL">
 <contactref element="R2" pad="1"/>
@@ -2133,39 +2161,43 @@ design rules under a new name.</description>
 </signal>
 <signal name="VIN">
 <contactref element="SJPWR" pad="1"/>
-<contactref element="JP1" pad="15"/>
-<contactref element="POWER" pad="+"/>
-<contactref element="J3" pad="1"/>
 <contactref element="RX-433MHZ" pad="+5V"/>
-<wire x1="50.8" y1="9.017" x2="50.8" y2="17.49" width="0.6096" layer="1"/>
-<wire x1="52.503" y1="19.193" x2="50.8" y2="17.49" width="0.6096" layer="1"/>
-<wire x1="52.503" y1="19.193" x2="50.8" y2="19.193" width="0.8128" layer="1"/>
-<wire x1="54.61" y1="20.193" x2="53.721" y2="19.304" width="0.6096" layer="1"/>
-<wire x1="53.721" y1="19.304" x2="52.614" y2="19.304" width="0.6096" layer="1"/>
-<wire x1="52.614" y1="19.304" x2="52.503" y2="19.193" width="0.6096" layer="1"/>
-<wire x1="50.8" y1="9.017" x2="50.8" y2="7.62" width="0.8128" layer="16"/>
 <wire x1="48.514" y1="5.334" x2="50.8" y2="7.62" width="0.6096" layer="16"/>
 <wire x1="50.8" y1="35.56" x2="45.212" y2="35.56" width="0.6096" layer="1"/>
 <wire x1="45.212" y1="35.56" x2="42.037" y2="38.735" width="0.6096" layer="1"/>
-<wire x1="54.61" y1="20.193" x2="54.61" y2="24.13" width="0.6096" layer="1"/>
 <wire x1="54.61" y1="24.13" x2="52.705" y2="26.035" width="0.6096" layer="1"/>
 <wire x1="52.705" y1="26.035" x2="52.705" y2="33.655" width="0.6096" layer="1"/>
 <wire x1="52.705" y1="33.655" x2="50.8" y2="35.56" width="0.6096" layer="1"/>
 <contactref element="SJLED" pad="1"/>
 <wire x1="45.847" y1="5.334" x2="48.514" y2="5.334" width="0.6096" layer="16"/>
-<via x="45.212" y="15.113" extent="1-16" drill="0.3556" diameter="0.7112"/>
-<wire x1="23.622" y1="15.113" x2="45.212" y2="15.113" width="0.6096" layer="1"/>
-<wire x1="45.212" y1="15.113" x2="45.847" y2="15.113" width="0.6096" layer="16"/>
+<via x="45.466" y="15.113" extent="1-16" drill="0.3556" diameter="0.7112"/>
+<wire x1="23.622" y1="15.113" x2="45.466" y2="15.113" width="0.6096" layer="1"/>
+<wire x1="45.466" y1="15.113" x2="45.847" y2="15.113" width="0.6096" layer="16"/>
 <wire x1="45.847" y1="15.113" x2="50.8" y2="10.16" width="0.6096" layer="16"/>
-<wire x1="50.8" y1="10.16" x2="50.8" y2="9.017" width="0.8128" layer="16"/>
 <wire x1="23.622" y1="15.113" x2="19.685" y2="19.05" width="0.6096" layer="1"/>
 <wire x1="19.685" y1="19.05" x2="19.685" y2="18.796" width="0.6096" layer="1"/>
+<contactref element="Q1" pad="2"/>
+<contactref element="JP1" pad="15"/>
+<wire x1="53.02" y1="12.87" x2="53.02" y2="11.237" width="0.6096" layer="1"/>
+<wire x1="53.02" y1="11.237" x2="50.8" y2="9.017" width="0.6096" layer="1"/>
+<wire x1="50.8" y1="10.16" x2="50.8" y2="9.017" width="0.6096" layer="16"/>
+<wire x1="50.8" y1="7.62" x2="50.8" y2="9.017" width="0.6096" layer="16"/>
+<wire x1="54.61" y1="24.13" x2="54.61" y2="14.46" width="0.6096" layer="1"/>
+<wire x1="54.61" y1="14.46" x2="53.02" y2="12.87" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="RADIO1" pad="8"/>
 <contactref element="SNRFIRQ" pad="1"/>
 <wire x1="7.17" y1="31.75" x2="5.17525" y2="31.75" width="0.254" layer="16"/>
 <wire x1="5.17525" y1="31.75" x2="5.04825" y2="31.623" width="0.254" layer="16"/>
+</signal>
+<signal name="PWR">
+<contactref element="Q1" pad="3"/>
+<contactref element="POWER" pad="+"/>
+<contactref element="J3" pad="1"/>
+<wire x1="52.07" y1="15.07" x2="52.07" y2="18.76" width="0.6096" layer="1"/>
+<wire x1="52.07" y1="18.76" x2="52.503" y2="19.193" width="0.6096" layer="1"/>
+<wire x1="52.503" y1="19.193" x2="50.8" y2="19.193" width="0.6096" layer="1"/>
 </signal>
 </signals>
 <errors>
@@ -2174,8 +2206,8 @@ design rules under a new name.</description>
 <approved hash="19,16,f7fb8658b68328a7"/>
 <approved hash="19,16,4ec5c6054ab76401"/>
 <approved hash="19,1,b4bb3337b32334af"/>
-<approved hash="19,1,d5995215d201558d"/>
 <approved hash="19,16,b4bb3337b32334af"/>
+<approved hash="19,1,d5995215d201558d"/>
 <approved hash="19,16,d5995215d201558d"/>
 </errors>
 </board>
