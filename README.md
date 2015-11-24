@@ -38,7 +38,7 @@ SILK problem solved in V1.1a+, I also put VIN/RST solder pad bigger for easier s
 
 This is a bunch of V1.1 white PCB boards, nice ?
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/V1.1-White-Boards.jpg">
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/V1.1-White-Boards.jpg">
 
 Version 1.1 boards
 ==================
@@ -52,12 +52,12 @@ Detailed Description
 No specific documentation for now, but very close in term of feature to Particle Gateway I created and blogged on this dedicated [post][1]
 
 ### Schematic (Classic version)
-![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-sch.png)  
+![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-sch.png)  
 
 ### Boards (Classic version)
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-top.png" alt="Top" width="60%" height="60%">    
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-top.png" alt="Top" width="60%" height="60%">    
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-bottom.png" alt="Bottom" width="60%" height="60%">     
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-bottom.png" alt="Bottom" width="60%" height="60%">     
 
 You can order the PCB of this board at [OSHPARK][3] (V1.2)
 
@@ -65,30 +65,30 @@ You can order the PCB of this board at [OSHPARK][3] (V1.2)
 
 *V1.0 tested and assembled boards*    
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-Top.jpg" alt="Top" width="75%" height="75%">    
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-Top.jpg" alt="Top" width="75%" height="75%">    
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-Bottom.jpg" alt="Bottom" width="75%" height="75%">     
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-Bottom.jpg" alt="Bottom" width="75%" height="75%">     
 
 With a nice 1.3" Oled display    
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-OLED.jpg" alt="OLED" width="75%" height="75%">    
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-OLED.jpg" alt="OLED" width="75%" height="75%">    
 
 ### Schematic (NRF24L01 version)
-![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-NRF-sch.png)  
+![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-NRF-sch.png)  
 
 ### Boards (NRF24L01 version)
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-NRF-top.png" alt="Top" width="60%" height="60%">    
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-NRF-top.png" alt="Top" width="60%" height="60%">    
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Gateway-NRF-bottom.png" alt="Bottom" width="60%" height="60%">     
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-NRF-bottom.png" alt="Bottom" width="60%" height="60%">     
 
 You can order the PCB of this board at [OSHPARK][4] (V1.2)
 
 ### Schematic (LORA version)
-![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Lora-Gateway-sch.png)  
+![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Lora-Gateway-sch.png)  
 
 ### Boards (LORA version)
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Lora-Gateway-top.png" alt="Top" width="60%" height="60%">    
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Lora-Gateway-top.png" alt="Top" width="60%" height="60%">    
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/NodeMCU-Lora-Gateway-bottom.png" alt="Bottom" width="60%" height="60%">     
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Lora-Gateway-bottom.png" alt="Bottom" width="60%" height="60%">     
 
 You can order the PCB of this board at [OSHPARK][5] (V1.2)
 
