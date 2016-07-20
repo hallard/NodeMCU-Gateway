@@ -17,17 +17,20 @@ The gateway can host several funny things like
 - Footprint for Atmel ATSHA204 (I2C version due to lack of I/O)
 - Created a version with NRF24L01 connector instead of a grove I2C (end of this page)
 
-This page has been updated to reflect the GPIO changes and the PCB also, it's now V1.2.
+This page has been updated to reflect the GPIO changes and the PCB also, it's now V1.3.
 
 NRF24L01 version are now tested thanks to [mannkind][6]. As suggested NRF version 1.2 has how been corrected to have NRF24L01 wiring same has mysensors configuration and added place for capacitor near NRF24L01.
 
-LORA boards are **Not tested yes use at your own risk**
+LORA version have been tested by [lafleur][7] thanks to him.
+
+Take care that on the market you can find lot of NODEMCU boards with different version, and they do not all fit on this. Just because sometime the width of the board if too high. Take care when you order a NodeMCU, see this [post][8]for explanations
 
 New Version 1.3 boards
 ======================
-New boards version V1.3 these boards have minor improvment
+New boards version V1.3 these boards have minor improvments
 * SMA/UFL Antenna connector has been size reduced
 * Antenna trace and RF Module surrounded with via for better RF isolation
+* Increased "Isolate" ground planes to avoid shorts between connectors and ground (may happen sometimes after soldering)
 * I2C OLED connector is now "lock" version, you can just plug to test it will fit without connector
 * No more LED solder pad to choose VIN/3V3, added 1N4148 diode from 5V for the 1st LED to decrease VCC to 4.4V, always works
 
@@ -89,7 +92,8 @@ With a nice 1.3" Oled display
 
 <img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-NRF-bottom.png" alt="Bottom" width="60%" height="60%">     
 
-You can order the PCB of this board at [OSHPARK][4] (V1.2)
+You can order the PCB of this board at [OSHPARK][4] (V1.2) or the new V1.3 version at [PCBs.io][14].
+PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price, so if you don't care about PCB manufacturer please use PCBs.io.
 
 ### Schematic (LORA version)
 ![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Lora-Gateway-sch.png)  
@@ -116,6 +120,8 @@ See news and other projects on my [blog][2]
 [4]: https://oshpark.com/shared_projects/3wE3bYYY
 [5]: https://oshpark.com/shared_projects/HIb6K9BL
 [6]: https://github.com/hallard/NodeMCU-Gateway/issues/1
+[7]: http://forum.thethingsnetwork.org/t/single-channel-gateway/798/147
+[8]: http://forum.thethingsnetwork.org/t/single-channel-gateway/798/145
 [13]: https://PCBs.io/share/z7xX4 
-[14]: https://oshpark.com/shared_projects/3wE3bYYY
+[14]: https://PCBs.io/share/z5yGz 
 [15]: https://oshpark.com/shared_projects/HIb6K9BL
