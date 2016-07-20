@@ -33,6 +33,8 @@ New boards version V1.3 these boards have minor improvments
 * Increased "Isolate" ground planes to avoid shorts between connectors and ground (may happen sometimes after soldering)
 * I2C OLED connector is now "lock" version, you can just plug to test it will fit without connector
 * No more LED solder pad to choose VIN/3V3, added 1N4148 diode from 5V for the 1st LED to decrease VCC to 4.4V, always works
+* LORA version, added Microchip 64 bits Unique ID footprint 24AA02E64 
+* LORA version, done a diode logic OR for DIO0/DIO1/DIO2 for current LIMC implementation
 
 
 Version 1.2 boards
@@ -103,9 +105,14 @@ PCBs.io give me some reward when you order my designed boards from their site. T
 
 <img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Lora-Gateway-bottom.png" alt="Bottom" width="60%" height="60%">     
 
-You can order the PCB of this board at [OSHPARK][5] (V1.2)
+You can order the PCB of this board at [OSHPARK][5] (V1.2) or the new V1.3 version at [PCBs.io][15].
+PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price, so if you don't care about PCB manufacturer please use PCBs.io.
 
+##Bill Of Material
 
+Nothing fancy, all components are 0805 and can be ordered almost anywhere (digikey, mouser, radiospare, ...) 
+
+The tricky one is the RGB LED called "PL9823 F5" can be found on aliexpress or ebay.
 
 ##License
 
@@ -124,4 +131,5 @@ See news and other projects on my [blog][2]
 [8]: http://forum.thethingsnetwork.org/t/single-channel-gateway/798/145
 [13]: https://PCBs.io/share/z7xX4 
 [14]: https://PCBs.io/share/z5yGz 
-[15]: https://oshpark.com/shared_projects/HIb6K9BL
+[15]: https://PCBs.io/share/zvJjz 
+
