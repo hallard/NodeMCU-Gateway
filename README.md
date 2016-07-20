@@ -3,7 +3,7 @@ NodeMCU ESP8266 Gateway
 
 The gateway can host several funny things like
 
-- Socket to plug a NodeMCU V1.0
+- Socket to plug a NodeMCU V1.0 (take care 2 version with different width)
 - Pins to connect I2C or SPI OLED 128x64
 - Pins to connect 2.2" or 1.8" TFT LCD
 - RFM69 or RFM12B on board module
@@ -23,9 +23,17 @@ NRF24L01 version are now tested thanks to [mannkind][6]. As suggested NRF versio
 
 LORA boards are **Not tested yes use at your own risk**
 
-
-New Version 1.2 boards
+New Version 1.3 boards
 ======================
+New boards version V1.3 these boards have minor improvment
+* SMA/UFL Antenna connector has been size reduced
+* Antenna trace and RF Module surrounded with via for better RF isolation
+* I2C OLED connector is now "lock" version, you can just plug to test it will fit without connector
+* No more LED solder pad to choose VIN/3V3, added 1N4148 diode from 5V for the 1st LED to decrease VCC to 4.4V, always works
+
+
+Version 1.2 boards
+==================
 New boards version V1.2 these boards add a MOSFET transistor to protect againns reversed power supply. Trust me this will avoid you to burn some nodeMCU board (but nobody plug reversed powed, never ?)
 
 New board, supporing LORA modules
@@ -59,7 +67,8 @@ No specific documentation for now, but very close in term of feature to Particle
 
 <img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-bottom.png" alt="Bottom" width="60%" height="60%">     
 
-You can order the PCB of this board at [OSHPARK][3] (V1.2)
+You can order the PCB of this board at [OSHPARK][3] (V1.2) or the new V1.3 version at [PCBs.io][13].
+PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price, so if you don't care about PCB manufacturer please use PCBs.io.
 
 ### Assembled boards
 
@@ -107,3 +116,6 @@ See news and other projects on my [blog][2]
 [4]: https://oshpark.com/shared_projects/3wE3bYYY
 [5]: https://oshpark.com/shared_projects/HIb6K9BL
 [6]: https://github.com/hallard/NodeMCU-Gateway/issues/1
+[13]: https://PCBs.io/share/z7xX4 
+[14]: https://oshpark.com/shared_projects/3wE3bYYY
+[15]: https://oshpark.com/shared_projects/HIb6K9BL
