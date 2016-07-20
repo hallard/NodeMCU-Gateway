@@ -15,7 +15,10 @@ The gateway can host several funny things like
 - 2 x grove I2C connector to connect other I2C devices
 - 2 onboard nice WS2812 RGB LED
 - Footprint for Atmel ATSHA204 (I2C version due to lack of I/O)
+- Footprint for Microchip 64 bits Unique ID 24AA02E64  (on LORA version)
 - Created a version with NRF24L01 connector instead of a grove I2C (end of this page)
+- SMA oo UFL Antenna connector 
+
 
 This page has been updated to reflect the GPIO changes and the PCB also, it's now V1.3.
 
@@ -27,14 +30,14 @@ Take care that on the market you can find lot of NODEMCU boards with different v
 
 New Version 1.3 boards
 ======================
-New boards version V1.3 these boards have minor improvments
-* SMA/UFL Antenna connector has been size reduced
-* Antenna trace and RF Module surrounded with via for better RF isolation
-* Increased "Isolate" ground planes to avoid shorts between connectors and ground (may happen sometimes after soldering)
-* I2C OLED connector is now "lock" version, you can just plug to test it will fit without connector
-* No more LED solder pad to choose VIN/3V3, added 1N4148 diode from 5V for the 1st LED to decrease VCC to 4.4V, always works
-* LORA version, added Microchip 64 bits Unique ID footprint 24AA02E64 
-* LORA version, done a diode logic OR for DIO0/DIO1/DIO2 for current LIMC implementation
+New boards version V1.3 these boards have some improvments depending on version
+- SMA/UFL Antenna connector has been size reduced
+- Antenna trace and RF Module surrounded with via for better RF isolation
+- Increased "Isolate" ground planes to avoid shorts between connectors and ground (may happen sometimes after soldering)
+- I2C OLED connector is now "lock" version, you can just plug to test it will fit without connector
+- No more LED solder pad to choose VIN/3V3, added 1N4148 diode from 5V for the 1st LED to decrease VCC to 4.4V, always works
+- LORA version, added Microchip 64 bits Unique ID footprint 24AA02E64 
+- LORA version, done a diode logic OR for DIO0/DIO1/DIO2 for current LIMC implementation
 
 
 Version 1.2 boards
@@ -68,9 +71,9 @@ No specific documentation for now, but very close in term of feature to Particle
 ![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-sch.png)  
 
 ### Boards (Classic version)
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-top.png" alt="Top" width="60%" height="60%">    
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-top.png" alt="Top">    
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-bottom.png" alt="Bottom" width="60%" height="60%">     
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-bottom.png" alt="Bottom">     
 
 You can order the PCB of this board at [OSHPARK][3] (V1.2) or the new V1.3 version at [PCBs.io][13].
 PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price, so if you don't care about PCB manufacturer please use PCBs.io.
@@ -90,9 +93,9 @@ With a nice 1.3" Oled display
 ![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-NRF-sch.png)  
 
 ### Boards (NRF24L01 version)
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-NRF-top.png" alt="Top" width="60%" height="60%">    
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-NRF-top.png" alt="Top">    
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-NRF-bottom.png" alt="Bottom" width="60%" height="60%">     
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Gateway-NRF-bottom.png" alt="Bottom">     
 
 You can order the PCB of this board at [OSHPARK][4] (V1.2) or the new V1.3 version at [PCBs.io][14].
 PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price, so if you don't care about PCB manufacturer please use PCBs.io.
@@ -101,9 +104,9 @@ PCBs.io give me some reward when you order my designed boards from their site. T
 ![schematic](https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Lora-Gateway-sch.png)  
 
 ### Boards (LORA version)
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Lora-Gateway-top.png" alt="Top" width="60%" height="60%">    
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Lora-Gateway-top.png" alt="Top">    
 
-<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Lora-Gateway-bottom.png" alt="Bottom" width="60%" height="60%">     
+<img src="https://raw.githubusercontent.com/hallard/NodeMCU-Gateway/master/pictures/NodeMCU-Lora-Gateway-bottom.png" alt="Bottom">     
 
 You can order the PCB of this board at [OSHPARK][5] (V1.2) or the new V1.3 version at [PCBs.io][15].
 PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price, so if you don't care about PCB manufacturer please use PCBs.io.
