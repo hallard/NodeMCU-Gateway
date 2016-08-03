@@ -17,12 +17,12 @@ So for all these reasons I switched to WeMos and created same shields than the o
 - Grove I2C connector (but I2C is exposed via OLED connector)
 - Lipo Battery connector
 - Data connection for any cheap ebay ASK RX receiver
-- New, a push button has been added to do some UI/Action if needed.
+- **New, a push button** has been added to do some UI/Action if needed.
 
 WeMos Gateway shields are located here: 
 - Shield for [RFM69W, RFM69HW, RFM12B or RFM69CW][10] with Atmel ATSHA204 for crypto
-- Shield for [Lora/LoraWan RFM92, RFM95, RFM96 or RFM98][11] with footprint for Microchip 24AA02E64 64 bits serial number
-- New Shield for [Lora/LoraWAN RN2483][12] with footprint for excellent Microchip RN2483 Lora/Lorawan Module
+- Shield for Lora/LoraWan [RFM92, RFM95, RFM96 or RFM98][11] with footprint for Microchip 24AA02E64 64 bits serial number
+- **New Shield** for Lora/LoraWAN [Microchip RN2483][12] with footprint for excellent Microchip RN2483 Lora/Lorawan Module
 
 Sorry there is no shield designed for NRF24L01.
 
