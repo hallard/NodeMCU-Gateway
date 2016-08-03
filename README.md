@@ -8,18 +8,16 @@ This gateway has been updated by a new version for the following reasons:
 - USB Serial onboard is CH340 instead of CP210x, and I can upload up to 900Kbps without any issue on windows 10
 - I suspect WeMos regulator far better quality than the one used on NodeMCU that are just fake of original AMS117 3V3.
 - Just one size version, no error on order are possible!
-- Only one drawback, Voltage input on WeMos is limited to 6V and NodeMCU says up to 20V but trust me, I burnt some at only 14V so If I need to power boards with more than 6V I'm using cheap and small DC/DC converters like this [20][1]one. Plenty on ebay. If you need serious one take this amazing [OKI-78SR-5][21] from Murata.
+- Only one drawback, Voltage input on WeMos is limited to 6V and NodeMCU says up to 20V but trust me, I burnt some at only 14V so If I need to power boards with more than 6V I'm using cheap and small DC/DC converters like this [one][20]one. Plenty on ebay. If you need a more serious and robust one, take this amazing [OKI-78SR-5][21] from Murata (up to 36V).
 
-So for all these reasons I switched to WeMos and created same shields than the ones described here. Due to size constraint I needed to remove some features, you need to be aware that the following ones has been removed on WeMos shields:
+So for all these reasons I switched to WeMos and created same shields than the ones described here, but, due to size constraint I removed some features, you need to be aware that the following ones has been removed on WeMos shields:
 
 - SPI 2.2" or 1.8" TFT LCD connector
 - SPI 128x64 OLED connector (I2C one still present)
 - Grove I2C connector (but I2C is exposed via OLED connector)
 - Lipo Battery connector
-- Lipo Battery connector
 - Data connection for any cheap ebay ASK RX receiver
-
-but a push button has been added to do some UI if needed.
+- New, a push button has been added to do some UI/Action if needed.
 
 WeMos Gateway shields are located here: 
 - Shield for [RFM69W, RFM69HW, RFM12B or RFM69CW][10] with Atmel ATSHA204 for crypto
@@ -28,7 +26,7 @@ WeMos Gateway shields are located here:
 
 Sorry there is no shield designed for NRF24L01.
 
-If you need NRF24L01 version or if you just want to continue wwith the NodeMCU gateway you can, this repo is still alive and boards are working fine.
+If you need NRF24L01 version or if you just want to continue with the NodeMCU gateway you can, this repo is still alive and boards are working fine.
 
 
 NodeMCU ESP8266 Gateway
@@ -45,12 +43,12 @@ The gateway can host several funny things like
 - Lipo Battery connector for testing and move the Gateway (no charger on board)
 - 3V3 On board regulator is provided by NodeMCU Board
 - Data connection for any cheap ebay ASK RX receiver
-- 2 x grove I2C connector to connect other I2C devices
+- One Grove I2C connector to connect other I2C devices
 - 2 onboard nice WS2812 RGB LED
 - Footprint for Atmel ATSHA204 (I2C version due to lack of I/O)
 - Footprint for Microchip 64 bits Unique ID 24AA02E64  (on LORA version)
 - Created a version with NRF24L01 connector instead of a grove I2C (end of this page)
-- SMA oo UFL Antenna connector 
+- SMA or UFL Antenna connector 
 
 
 This page has been updated to reflect the GPIO changes and the PCB also, it's now V1.3.
