@@ -1,3 +1,36 @@
+NodeMCU ESP8266 Gateway Goes to WeMos ESP8266
+=============================================
+
+This gateway has been updated by a new version for the following reasons:
+
+- Now I'm using [WeMos D1 Mini][9] board instead of NodeMCU's one because they're just smaller and cheaper (you can find them for less than $3). 
+- Features remains the same, they got lot of available shields
+- USB Serial onboard is CH340 instead of CP210x, and I can upload up to 900Kbps without any issue on windows 10
+- I suspect WeMos regulator far better quality than the one used on NodeMCU that are just fake of original AMS117 3V3.
+- Just one size version, no error on order are possible!
+- Only one drawback, Voltage input on WeMos is limited to 6V and NodeMCU says up to 20V but trust me, I burnt some at only 14V so If I need to power boards with more than 6V I'm using cheap and small DC/DC converters like this [20][1]one. Plenty on ebay. If you need serious one take this amazing [OKI-78SR-5][21] from Murata.
+
+So for all these reasons I switched to WeMos and created same shields than the ones described here. Due to size constraint I needed to remove some features, you need to be aware that the following ones has been removed on WeMos shields:
+
+- SPI 2.2" or 1.8" TFT LCD connector
+- SPI 128x64 OLED connector (I2C one still present)
+- Grove I2C connector (but I2C is exposed via OLED connector)
+- Lipo Battery connector
+- Lipo Battery connector
+- Data connection for any cheap ebay ASK RX receiver
+
+but a push button has been added to do some UI if needed.
+
+WeMos Gateway shields are located here: 
+- Shield for [RFM69W, RFM69HW, RFM12B or RFM69CW][10] with Atmel ATSHA204 for crypto
+- Shield for [Lora/LoraWan RFM92, RFM95, RFM96 or RFM98][11] with footprint for Microchip 24AA02E64 64 bits serial number
+- New Shield for [Lora/LoraWAN RN2483][12] with footprint for excellent Microchip RN2483 Lora/Lorawan Module
+
+Sorry there is no shield designed for NRF24L01.
+
+If you need NRF24L01 version or if you just want to continue wwith the NodeMCU gateway you can, this repo is still alive and boards are working fine.
+
+
 NodeMCU ESP8266 Gateway
 =======================
 
@@ -132,7 +165,13 @@ See news and other projects on my [blog][2]
 [6]: https://github.com/hallard/NodeMCU-Gateway/issues/1
 [7]: http://forum.thethingsnetwork.org/t/single-channel-gateway/798/147
 [8]: http://forum.thethingsnetwork.org/t/single-channel-gateway/798/145
+[9]: http://www.wemos.cc/Products/d1_mini.html
+[10]: https://github.com/hallard/WeMos-RFM69
+[11]: https://github.com/hallard/WeMos-Lora
+[12]: https://github.com/hallard/WeMos-RN2483
 [13]: https://PCBs.io/share/z7xX4 
 [14]: https://PCBs.io/share/z5yGz 
 [15]: https://PCBs.io/share/zvJjz 
 
+[20]: http://www.ebay.com/itm/DC-DC-Step-Down-Buck-Power-Supply-5V-28V-to-3-3V-3A-Precise-Fixed-Output-
+[21]: http://www.mouser.fr/Search/Refine.aspx?Keyword=OKI-78SR-5
