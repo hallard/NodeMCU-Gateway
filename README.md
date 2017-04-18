@@ -142,17 +142,17 @@ PCBs.io give me some reward when you order my designed boards from their site. T
 You can order the PCB of this board at [OSHPARK][5] (V1.2) or the new V1.3 version at [PCBs.io][15].
 PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price, so if you don't care about PCB manufacturer please use PCBs.io.
 
-##Bill Of Material
+## Bill Of Material
 
 Nothing fancy, all components are 0805 and can be ordered almost anywhere (digikey, mouser, radiospare, ...) 
 
 The tricky one is the RGB LED called "PL9823 F5" can be found on aliexpress or ebay.
 
-##License
+## License
 
 You can do whatever you like with this design.
 
-##Misc
+## Misc
 See news and other projects on my [blog][2] 
  
 [1]: https://hallard.me/particle-gateway/
